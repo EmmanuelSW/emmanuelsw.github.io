@@ -4,8 +4,8 @@ markdown:	kramdown
 permalink:	/blog/:title
 
 # Setup
-title:            emmanuelsw
-tagline:          'blog'
+title:            EmmanuelSW
+tagline:          'Blog'
 description:      'My personal blog.'
 url:              http://emmanuelsw.me
 baseurl:          
