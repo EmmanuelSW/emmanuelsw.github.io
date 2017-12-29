@@ -2,18 +2,20 @@
 	{% include head.html %}
 	<body>
 		{{ content }}
-		<script>
-		var width = $(window).width()
-		if ( width > 899 )
-		$( function(){
-			$.stellar({
-				responsive: true,
-			verticalScrolling: true,
-			horizontalOffset: 0,
-			verticalOffset: 0,
-			positionProperty: 'transform',
-			});
-		});
-		</script>
+		{% if site.parallax %}
+			<script>
+				var width = $(window).width()
+				if ( width > 899 )
+				$( function(){
+					$.stellar({
+						responsive: true,
+					verticalScrolling: true,
+					horizontalOffset: 0,
+					verticalOffset: 0,
+					positionProperty: 'transform',
+					});
+				});
+			</script>
+		{% endif %}
 	</body>
 </html>
