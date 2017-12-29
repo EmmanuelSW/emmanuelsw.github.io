@@ -4,17 +4,17 @@ markdown:	kramdown
 permalink:	/blog/:title
 
 # Setup
-title:            Thinny
+title:            emmanuelsw
 tagline:          'blog'
 description:      'My personal blog.'
-url:              http://camporez.github.io
+url:              http://emmanuelsw.me
 baseurl:          
 commentsystem:    google
 disqus:           example
 
 author:
-  name:           Ian Brunelli
-  url:            https://google.com/+IanCamporezBrunelli
+  name:           Emmanuel Deossa
+  url:            https://github.com/emmanuelsw
 
 paginate:         5
 
@@ -47,9 +47,9 @@ menu:
     url:          /about
 
 copyright:
-  author:         Camporez
-  url:            http://camporez.github.io
-  type_title:     Some rights reserved
+  author:         Emmanuel Deossa
+  url:            emmanuelsw.me
+  type_title:     
   type_url:       http://creativecommons.org/licenses/by-nc/2.5
 
 parallax:         false
