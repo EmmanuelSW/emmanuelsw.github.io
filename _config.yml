@@ -40,10 +40,10 @@ social:
     desc:         Subscribe to my feed
 
 menu:
-  - title:        Home
+  - title:        Inicio
     url:          /
 
-  - title:        About
+  - title:        Acerca de
     url:          /about
 
 copyright:
