@@ -31,11 +31,11 @@ social:
     url:          https://github.com/emmanuelsw
     desc:         Github
 
-  - icon:         facebook
+  - icon:         facebook-alt
     url:          https://www.facebook.com/
     desc:         Facebook
 
-  - icon:         linkedin
+  - icon:         linkedin-alt
     url:          https://www.linkedin.com/in/emmanuel-deossa-b51031127
     desc:         Linkedin
 
