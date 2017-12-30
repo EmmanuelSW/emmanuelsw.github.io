@@ -1,19 +1,37 @@
 ---
 layout: default
-title: Inicio
+title: Home
 ---
 
 <header class="clean" style="height: 350px; background-image: url({{ site.cover }}); background-attachment: scroll;">
 	{% include top.html %}
 	<a href="{{ site.url }}{{ site.baseurl }}">
-		<div id="home-title" class="site-icon-home" style="background-image: url({{ site.icon }});" data-stellar-ratio="0.5"></div>
+		<div id="home-title" class="site-icon-home" style="background-image: url({{ site.icon }});"></div>
 	</a>
 </header>
 <div id="middle">
 <div id="post-list">
 	{% for post in paginator.posts %}
 		<div>
-			<span class="post-date">{{ post.date | date_to_long_string }}</span>
+			<span class="post-date">
+				{% assign m = post.date | date: "%-m" %}
+				{% case m %}
+					{% when '1' %}Enero
+					{% when '2' %}Febrero
+					{% when '3' %}Marzo
+					{% when '4' %}Abril
+					{% when '5' %}Mayo
+					{% when '6' %}Junio
+					{% when '7' %}Julio
+					{% when '8' %}Agosto
+					{% when '9' %}Septiembre
+					{% when '10' %}Octubre
+					{% when '11' %}Noviembre
+					{% when '12' %}Diciembre
+				{% endcase %}
+				{{ post.date | date: "%-d" }}, 
+				{{ post.date | date: "%Y" }}
+			</span>
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<p class="post-description">{% if post.quote %}{{ post.quote }}{% else %}{{ post.content | strip_html | truncatewords: 50 }}{% endif %}</p>
 		</div>

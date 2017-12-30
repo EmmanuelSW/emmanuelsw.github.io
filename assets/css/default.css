@@ -121,10 +121,11 @@ h3 {
 }
 
 .site-icon-page {
-	width: 100px;
-	height: 100px;
-	background-size: 100px;
-	margin: -120px 0 0 -50px;
+	width: 150px;
+	height: 150px;
+	background-size: 150px;
+	margin: -110px 0 0 -75px;
+	opacity: .9;
 }
 
 .site-icon-small {
@@ -486,7 +487,6 @@ pre code {
 .copyright {
 	color: inherit;
 	font-size: 14px;
-	text-transform: uppercase;
 	bottom: 10px;
 	padding-top: 8px;
 }

@@ -5,7 +5,7 @@ plugins:
   - jekyll-paginate
 
 # Setup
-title:            EmmanuelSW
+title:            Emmanuel Deossa
 tagline:          'Blog'
 description:      'My personal blog.'
 url:              http://emmanuelsw.me
@@ -13,8 +13,8 @@ theme_color:      7E9576
 paginate:         5
 baseurl:          
 
-icon:             /assets/images/icon.png
-cover:            /assets/images/cover.jpg
+icon:             /assets/images/icon.jpg
+cover:            /assets/images/code.jpeg
 
 author:
   name:           Emmanuel Deossa
