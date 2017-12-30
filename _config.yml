@@ -9,7 +9,7 @@ tagline:          'Blog'
 description:      'My personal blog.'
 url:              http://emmanuelsw.me
 baseurl:          
-commentsystem:    google
+commentsystem:    example
 disqus:           example
 
 author:
@@ -24,20 +24,20 @@ cover:            /assets/images/cover.jpg
 
 social:
   - icon:         twitter
-    url:          https://twitter.com/iancamporez
-    desc:         Follow me on twitter
+    url:          https://twitter.com/emmanuel_sw
+    desc:         Twitter
 
   - icon:         github
-    url:          https://github.com/camporez
-    desc:         Fork me on github
+    url:          https://github.com/emmanuelsw
+    desc:         Github
 
-  - icon:         googleplus-alt
-    url:          https://google.com/+IanCamporezBrunelli
-    desc:         Add me on google+
+  - icon:         facebook
+    url:          https://www.facebook.com/
+    desc:         Facebook
 
-  - icon:         feed
-    url:          http://camporez.github.io/atom.xml
-    desc:         Subscribe to my feed
+  - icon:         linkedin
+    url:          https://www.linkedin.com/in/emmanuel-deossa-b51031127
+    desc:         Linkedin
 
 menu:
   - title:        Inicio
