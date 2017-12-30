@@ -269,7 +269,7 @@ abbr[title] {
 
 blockquote, pre, .message {
 	padding: 10px 18px;
-	margin: 0px 0px 30px -20px;
+	/*margin: 0px 0px 30px -20px;*/
 	margin-top: inherit;
 	color: #7a7a7a;
 }
